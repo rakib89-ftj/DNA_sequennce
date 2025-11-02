@@ -61,41 +61,6 @@ DNA_Sequence_Classification/
 └── README.md                       # This file
 ```
 
----
-
-### ⚙️ How to Run
-
-#### 1. Clone the repository
-
-```bash
-git clone https://github.com/<your-username>/DNA_Sequence_Classification.git
-cd DNA_Sequence_Classification
-```
-
-#### 2. Install dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
-*(If `requirements.txt` doesn’t exist yet, generate it via:)*
-
-```bash
-pip freeze > requirements.txt
-```
-
-#### 3. Run the notebook
-
-Open **`DNA_sequence.ipynb`** in Jupyter Notebook or Google Colab to preprocess data and train models.
-
-#### 4. Generate visualizations & report
-
-Once training is done and models are saved:
-
-```bash
-python visualization_report.py
-```
-
 This will create:
 
 * Confusion matrix plots
